@@ -1,6 +1,7 @@
-/* Estilo Base do Botão */
 .button {
   border: none;
+  background: var(--primary);
+  color: var(--text-over-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,18 +13,15 @@
   transition: all 0.1s ease-in-out;
 }
 
-/* O ícone do Lucide React é renderizado como um <svg> */
 .button svg {
   width: 3.2rem;
   height: 3.2rem;
 }
 
-/* Efeito de Hover escurecendo o botão dinamicamente */
 .button:hover {
   filter: brightness(80%);
 }
 
-/* --- Classes Modificadoras de Cor --- */
 .green {
   background: var(--primary);
   color: var(--text-over-primary);
