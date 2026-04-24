@@ -1,9 +1,9 @@
-import styles from './styles.module.css'; // <-- Importando o CSS Module
+import styles from "./styles.module.css"; // <-- Importando o CSS Module
 
 type DefaultInputProps = {
   id: string;
   labelText: string;
-} & React.ComponentProps<'input'>;
+} & React.ComponentProps<"input">;
 
 export function DefaultInput({
   id,
